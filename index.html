@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shorts Uploader Terms</title>
+<style>
+  :root{
+    --bg:#faf9f7; --surface:#ffffff; --line:#e4e0d8;
+    --text:#242220; --muted:#6b6660; --accent:#8a5a3b;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#171513; --surface:#1f1c1a; --line:#332f2b;
+      --text:#eeebe7; --muted:#a49d95; --accent:#d99a70;
+      color-scheme: dark;
+    }
+  }
+  *{ box-sizing:border-box; }
+  body{
+    background:var(--bg); color:var(--text); margin:0;
+    font-family: Georgia, "Noto Serif KR", serif;
+    padding:48px 16px;
+  }
+  .page{ max-width:680px; margin:0 auto; }
+  .kicker{
+    font-family: -apple-system, "Noto Sans KR", sans-serif;
+    font-size:12px; letter-spacing:.08em; text-transform:uppercase;
+    color:var(--accent); margin:0 0 10px;
+  }
+  h1{ font-size:clamp(28px,5vw,38px); line-height:1.15; margin:0 0 6px; }
+  .meta{
+    font-family: -apple-system, "Noto Sans KR", sans-serif;
+    font-size:13px; color:var(--muted); margin:0 0 36px;
+  }
+  nav.toc{
+    display:flex; gap:16px; flex-wrap:wrap;
+    font-family: -apple-system, "Noto Sans KR", sans-serif;
+    font-size:13px; margin-bottom:40px; padding-bottom:20px;
+    border-bottom:1px solid var(--line);
+  }
+  nav.toc a{ color:var(--accent); text-decoration:none; }
+  section{ margin-bottom:40px; }
+  section > h2{
+    font-family: -apple-system, "Noto Sans KR", sans-serif;
+    font-size:12px; letter-spacing:.08em; text-transform:uppercase;
+    color:var(--muted); font-weight:600; margin:0 0 18px;
+    padding-top:20px; border-top:1px solid var(--line);
+  }
+  section > h2:first-of-type{ padding-top:0; border-top:none; }
+  h3{ font-size:19px; margin:28px 0 8px; }
+  p, li{ font-size:16px; line-height:1.65; max-width:62ch; }
+  p{ margin:0 0 14px; }
+  ul{ margin:0 0 14px; padding-left:22px; }
+  li{ margin-bottom:6px; }
+  strong{ color:var(--text); }
+  .card{
+    background:var(--surface); border:1px solid var(--line);
+    border-radius:10px; padding:18px 20px; margin:0 0 20px;
+  }
+  .card p:last-child{ margin-bottom:0; }
+  footer{
+    font-family: -apple-system, "Noto Sans KR", sans-serif;
+    font-size:12px; color:var(--muted); padding-top:24px;
+    border-top:1px solid var(--line);
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <p class="kicker">Shorts Uploader &middot; Legal</p>
+  <h1>Terms of Service &amp; Privacy Policy</h1>
+  <p class="meta">Effective September 27, 2026</p>
+
+  <nav class="toc">
+    <a href="#terms">Terms of Service</a>
+    <a href="#privacy">Privacy Policy</a>
+  </nav>
+
+  <section id="terms">
+    <h2>Terms of Service</h2>
+
+    <h3>What this app is</h3>
+    <p>
+      Shorts Uploader is a personal, single-user tool. It connects to the TikTok
+      Content Posting API so its owner can send their own short-form product
+      videos to their own TikTok account as private drafts, which the owner then
+      reviews and publishes themselves from the TikTok app.
+    </p>
+
+    <h3>Who can use it</h3>
+    <div class="card">
+      <p>
+        This app is operated by one individual for their own TikTok account.
+        It is not a public service, is not offered to other users, and does not
+        accept sign-ups from anyone else.
+      </p>
+    </div>
+
+    <h3>What you may upload</h3>
+    <ul>
+      <li>Only video content the owner has the rights to publish.</li>
+      <li>No content that violates TikTok's Community Guidelines or Terms of Service.</li>
+    </ul>
+
+    <h3>No warranty</h3>
+    <p>
+      This app is provided as-is, with no guarantee that uploads will succeed or
+      that TikTok's API will remain available in its current form. The owner is
+      responsible for reviewing every draft before it is published.
+    </p>
+
+    <h3>Changes</h3>
+    <p>
+      These terms may be updated as the app changes. Continued use after an
+      update means the owner accepts the revised terms.
+    </p>
+  </section>
+
+  <section id="privacy">
+    <h2>Privacy Policy</h2>
+
+    <h3>Who this covers</h3>
+    <p>
+      This app has exactly one user: its owner. It does not collect data from,
+      or make decisions about, anyone else.
+    </p>
+
+    <h3>What is stored, and where</h3>
+    <ul>
+      <li><strong>Video files and captions</strong> the owner supplies, stored on the owner's own computer or private server.</li>
+      <li><strong>TikTok access and refresh tokens</strong>, obtained through TikTok's official OAuth login, stored locally so the app can call the API on the owner's behalf.</li>
+      <li>Nothing here is uploaded to any server operated by anyone other than TikTok and, temporarily, a private cloud storage bucket the owner controls.</li>
+    </ul>
+
+    <h3>Who this data is shared with</h3>
+    <p>
+      Only TikTok, through its official Content Posting API, to create the
+      draft post. This app does not sell, share, or otherwise transfer any data
+      to advertisers or other third parties.
+    </p>
+
+    <h3>How long it is kept</h3>
+    <p>
+      Video files are kept locally by the owner. TikTok tokens are kept until
+      the owner disconnects the account or revokes access from TikTok's own
+      settings. Temporary cloud copies used to prepare an upload are deleted
+      automatically once that upload finishes.
+    </p>
+
+    <h3>Deleting your data</h3>
+    <p>
+      Because the owner is the only user, the owner can delete all local data,
+      including stored tokens, at any time by removing the app's local files,
+      and can revoke TikTok access at any time from the TikTok app's connected-apps
+      settings.
+    </p>
+  </section>
+
+  <footer>Shorts Uploader is a personal automation tool and is not affiliated with, endorsed by, or operated by TikTok.</footer>
+</div>
+</body>
+</html>
